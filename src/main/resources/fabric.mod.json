@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "strange_horizons",
+  "version": "${version}",
+  "name": "Strange Horizons",
+  "description": "An original experimental world-generation mod with remote terrain regions.",
+  "authors": ["Strange Horizons contributors"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.strangehorizons.StrangeHorizons"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": ">=0.160.7"
+  }
+}
